@@ -1,4 +1,4 @@
-package com.lx.study.datastructure;
+package com.lx.study.datastructure.array;
 
 import java.util.ArrayList;
 import java.util.Arrays;
