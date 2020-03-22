@@ -13,11 +13,12 @@ import java.util.Arrays;
  *          2，在内存中分配需要连续的内存空间，所以对应的容量有上限
  *          3，增加、删除效率相对较低
  *          4，没有封装好的操作方法，都需要用户自己封装
+ *
  * @Author lixiao
  * @Data 2020/3/20 10:53
  * @Version 1.0
  **/
-
+//TODO 时间复杂度  均摊复杂度  复杂度震荡
 public class Array<T> {
 
     private Object[] arrs;
@@ -46,7 +47,9 @@ public class Array<T> {
     public boolean add(T t){
        return add(size,t);
     }
-
+    public int getSize(){
+        return size;
+    }
     /**
      * 给数组中指定的索引处添加数据
      * @param index
