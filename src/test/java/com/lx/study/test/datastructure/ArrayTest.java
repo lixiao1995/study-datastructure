@@ -1,8 +1,7 @@
 package com.lx.study.test.datastructure;
 
-import com.lx.study.datastructure.Array;
+import com.lx.study.datastructure.array.Array;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 
 /**
  * @Description 数组测试
