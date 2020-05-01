@@ -16,8 +16,6 @@
 *.iml
 *.ipr
 *.gitgnore
-workspace.xml
-misc.xml
 
 
 ### NetBeans ###
